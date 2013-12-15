@@ -1,9 +1,12 @@
 package com.projects.veganchef;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
-
+import android.view.MenuInflater;
+import android.view.MenuItem;
+import android.widget.Toast;
 
 public class MainActivity extends Activity {
 
@@ -11,47 +14,39 @@ public class MainActivity extends Activity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
-		
+
 	}
 
-	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
-		// Inflate the menu; this adds items to the action bar if it is present.
-		getMenuInflater().inflate(R.menu.main, menu);
+
+		MenuInflater mi = getMenuInflater();
+		mi.inflate(R.menu.main_menu, menu);
 		return true;
 	}
-	
-	//Activity life cycle
-	@Override
-	public void onStart() {
-		
-		super.onStart();
-	}
-	
-	@Override
-	public void onResume() {
-		
-		super.onResume();
-	}
-	
-	//Activity is visible and being used
-	
-	@Override
-	public void onPause() {
-		
-		super.onPause();
-	}
-	
-	@Override
-	public void onStop() {
-		
-		super.onStop();
-	}
-	
-	@Override
-	public void onDestroy() {
-		
-		super.onDestroy();
+
+	public boolean onOptionsItemSelected(MenuItem item) {
+		switch (item.getItemId()) {
+
+		case R.id.item1:
+			Intent intent1 = new Intent(this, Rezeptsuche.class);
+			startActivity(intent1);
+			return true;
+		case R.id.item2:
+			Intent intent2 = new Intent(this, Rezeptsuche.class);
+			startActivity(intent2);
+			return true;
+		case R.id.item3:
+			Intent intent3 = new Intent(this, Rezeptsuche.class);
+			startActivity(intent3);
+			return true;
+		case R.id.item4:
+			Intent intent4 = new Intent(this, Rezeptsuche.class);
+			startActivity(intent4);
+			return true;
+
+		default:
+			return false;
+		}
 	}
 
 }
