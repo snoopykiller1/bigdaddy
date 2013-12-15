@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <string name="app_name">VeganChef</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="spargel_rezept_image">spargel_rezept_image</string>
+    <string name="spargel_rezept_header">Gegrillter grüner Spargel</string>
+    <string name="spargel_rezept_subline">mit Orangen-Pistazien-Salsa</string>
+    <string name="zubereitung">ZUBEREITUNG</string>
+    <string name="schwierigkeit">SCHWIERIGKEIT</string>
+    <string name="zubereitung_zeit_40m">40min</string>
+    <string name="schwierigkeit_leicht">leicht</string>
+    <string name="zutaten">ZUTATEN</string>
+    <string name="rezept">REZEPT</string>
+    <string name="title_activity_activity_start_rezept1">Activity_start_rezept1</string>
+    <string name="title_activity_activity_start_rezept2">Activity_start_rezept2</string>
+    <string name="romanesco_rezept_header">Romanesco-Kohlrabi-Ragout</string>
+    <string name="title_activity_main_activity1">MainActivity1</string>
+    <string name="romanesco_rezept_subline">mit Curry-Kokos-Sauce</string>
+    <string name="romanesco_rezept_image">romanesco_rezept_image</string>
+    <string name="zubereitung_zeit_45m">45min</string>
+    <string name="lauch_rezept_header">Gedünsteter Lauch</string>
+    <string name="lauch_rezept_subline">mit Orange und Limette in Vinaigrette</string>
+    <string name="lauch_rezept_image">lauch_rezept_image</string>
+    <string name="kurbis_rezept_header">Gebratene Kürbisspalten</string>
+    <string name="kurbis_rezept_subline">mit Tomaten-Linsen-Gemüse</string>
+    <string name="kurbis_rezept_image">kurbis_rezept_image</string>
+    <string name="zubereitung_zeit_35m">35min</string>
+    <string name="rezeptsuche_header">Rezeptsuche</string>
+    <string name="rezeptsuche_name">Nach Name</string>
+    <string name="rezeptsuche_zutat">Nach Zutat</string>
+    <string name="rezeptsuche_kategorie">Nach Kategorie</string>
+    <string name="checkbox_vorspeise">Vorspeise</string>
+    <string name="checkbox_hauptgericht">Hauptgericht</string>
+    <string name="checkbox_nachspeise">Nachspeise</string>
+    <string name="rezeptresultate_header">Resultate</string>
+    <string name="button_rezept">Rezept</string>
+    <string name="button_finden">finden</string>
+    
+
+</resources>
